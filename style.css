@@ -1,0 +1,76 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/gambling.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.number-button {
+  padding: 20px;
+  margin: 20px;
+}
+#number-container {
+  background-color: azure;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    1px 13px 38px 18px rgba(0, 0, 0, 0.86);
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    1px 13px 38px 18px rgba(0, 0, 0, 0.86);
+  font-family: "Anton", sans-serif;
+  -webkit-text-stroke: 1px rgb(184, 178, 178);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+#number-container h2 {
+  color: rgb(108, 13, 13);
+  font-size: 45px;
+}
+#generated-number {
+  transition: 0.5s ease;
+  font-size: 250px;
+  text-shadow: 2px 0 0px rgba(187, 8, 98, 0.5), 3px 2px 0px #800040,
+    3px 0 3px #ff002b, 5px 0 3px #800015, 6px 2px 3px rgba(157, 4, 29, 0.5),
+    6px 0 9px #ff5500, 8px 0 9px #802a00, 9px 2px 9px #800040,
+    9px 0 18px #ffd500, 11px 0 18px #806a00,
+    12px 2px 18px rgba(182, 157, 11, 0.5), 12px 0 30px #d4ff00,
+    14px 0 30px #6a8000, 15px 2px 30px rgba(114, 136, 3, 0.5),
+    15px 0 45px #80ff00, 17px 0 45px #408000,
+    17px 2px 45px rgba(74, 145, 4, 0.5);
+}
+#number-button {
+  display: flex;
+  flex-direction: column;
+  width: 6em;
+  height: 6em;
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: forestgreen;
+  border: 10px dashed #fff;
+  border-radius: 6em;
+  padding-top: 2em;
+  transition: all linear 0.15s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin: 2em auto;
+}
+#number-button:hover {
+  background: magenta;
+  border-color: black;
+  color: black;
+}
